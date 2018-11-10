@@ -1,4 +1,4 @@
-@import "../../styles/variable";
+@import '../../styles/variable';
 
 %team-button {
   box-shadow: $box-shadow;
@@ -32,12 +32,12 @@
   background-color: $slytherin;
 }
 
-.team-button-hufflepuff {
-  @extend %team-button;
-  background-color: $hufflepuff;
-}
-
 .team-button-ravenclaw {
   @extend %team-button;
   background-color: $ravenclaw;
+}
+
+.team-button-hufflepuff {
+  @extend %team-button;
+  background-color: $hufflepuff;
 }
